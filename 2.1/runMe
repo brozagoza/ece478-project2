@@ -1,0 +1,9 @@
+echo "Total Samples:"
+wc -l 20150801.as2types.txt
+echo "Transit/Access:"
+grep Transit/Access 20150801.as2types.txt | wc -l
+echo "Content:"
+grep Content 20150801.as2types.txt | wc -l
+echo "Enterpise:"
+grep Enterpise 20150801.as2types.txt | wc -l
+

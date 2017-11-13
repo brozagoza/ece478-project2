@@ -17,6 +17,7 @@ public class AS {
 		customerSet = new HashSet<String>();
 	}
 	
+	
 	public String getName() {
 		return name;
 	}

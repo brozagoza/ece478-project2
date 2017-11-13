@@ -14,8 +14,8 @@ public class MainActivity {
 		Scanner scanner = null;
 
 		try {
-			File file = new File("relationships.txt"); // relationships
-			File file2 = new File("routeviews.txt"); // routeViews
+			File file = new File("relationships_09_01.txt"); // relationships
+			File file2 = new File("routeviews_11_05.txt"); // routeViews
 
 			scanner = new Scanner(file);
 
@@ -43,6 +43,7 @@ public class MainActivity {
 		instance.printGraph2();
 		instance.printGraph3();
 		instance.printGraph4();
+		instance.inference();
 	} // end main
 
 }
